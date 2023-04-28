@@ -1,4 +1,4 @@
-const { createServer } = require('node:http');
+const { createServer } = require('http');
 const Express = require('./lib/express');
 
 const postsController = require('./controllers/posts.controller');
